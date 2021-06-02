@@ -1,0 +1,10 @@
+Package: com.maximehip.dontoff
+Name: DontOff
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: maximehip
+Author: maximehip
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Version: 0.0.1
+Installed-Size: 152
