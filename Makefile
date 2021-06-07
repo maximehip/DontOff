@@ -1,3 +1,4 @@
+export PREFIX = $(THEOS)/toolchain/Xcode11.xctoolchain/usr/bin/
 FINALPACKAGE = 1
 
 THEOS_DEVICE_IP = localhost
@@ -15,6 +16,7 @@ TWEAK_NAME = DontOff
 DontOff_FILES = Tweak.x
 $(TWEAK_NAME)_FRAMEWORKS = UIKit LocalAuthentication
 DontOff_CFLAGS = -fobjc-arc
-DontOff_LIBRARIES = MobileGestalt
+DontOff_LIBRARIES = MobileGestalt Authenticate
 
 include $(THEOS_MAKE_PATH)/tweak.mk
+include $(THEOS_MAKE_PATH)/aggregate.mk

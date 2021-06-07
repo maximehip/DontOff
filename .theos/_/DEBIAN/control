@@ -5,6 +5,6 @@ Description: An awesome MobileSubstrate tweak!
 Maintainer: maximehip
 Author: maximehip
 Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000)
-Version: 0.0.1
-Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000), com.maximehip.libauthenticate
+Version: 0.0.2
+Installed-Size: 136
